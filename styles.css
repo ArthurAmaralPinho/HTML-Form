@@ -1,0 +1,115 @@
+*{
+    background-color: aquamarine;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+}
+
+.div-name-email-age{
+    width: 200px;
+    margin-bottom: 0px;
+    border-color: red;
+}
+
+#name{
+    margin-bottom: 15px;
+    border-color: red;
+}
+
+#email{
+    margin-bottom: 15px;
+    border-color: red;
+}
+
+#age{
+    margin-bottom: 15px;
+    border-color: red;
+}
+
+
+#input-date{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-color: red;
+}
+
+#div-3-accounts{
+    display: block;
+    margin-top: 3px;
+    margin-bottom: 15px;
+}
+
+.sex{
+    display: block;
+    margin-bottom: 15px;
+}
+
+#olhos{
+    display: block;
+    margin-bottom: 15px;
+}
+
+#textarea{
+    display: block;
+    margin-bottom: 15px;
+    border-color: red;
+}
+
+#input-file{
+    display: block;
+    margin-bottom: 15px;
+    border-color: red;
+}
+
+#telephone{
+    display: block;
+    margin-bottom: 15px;
+    border-color: red;
+}
+
+#url-facebook{
+    display: block;
+    margin-bottom: 15px;
+    border-color: red;
+}
+
+#password{
+    display: block;
+    margin-bottom: 15px;
+    border-color: red;
+}
+
+#button-reset:hover{
+    background-color:#E61300;
+    height: 27px;
+    width: 90px;
+    border-radius: 5px;
+    border-color: #fff;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 1s;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+#button-submit:hover{
+    background-color:#1DCC2B;
+    height: 27px;
+    width: 140px;
+    border-radius: 5px;
+    border-color: #fff;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 1s;
+    transform: scale(1.05);
+    cursor: pointer;
+
+}
+
+body{
+    border: solid 3px;
+    padding-left: 8px;
+    padding-top: 10px;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Desafio HTML</title>
+
+</head>
+
+<body>
+    <form>
+
+        <div class="div-name-email-age">
+            <label> Nome:
+                <input name="nome" required id="name">
+            </label>
+            <label> Email:
+                <input type="email" name="email" required id="email">
+            </label>
+            <label> Idade:
+                <input type="number" min="12" name="idade" required id="age">
+            </label>
+        </div>
+
+        <label> Data de Nascimento:
+            <input type="date" name="data" required id="input-date">
+        </label>
+
+        <label> Onde você possui conta:
+            <div id="div-3-accounts">
+                <input type="checkbox" name="conta" id="instagram">
+                <label for="instagram"> Instagram</label>
+
+
+                <input type="checkbox" name="conta1" id="facebook">
+                <label for="facebook">Facebook</label>
+
+
+                <input type="checkbox" name="conta2" id="youtube">
+                <label for="youtube">Youtube</label>
+            </div>
+        </label>
+        </div>
+
+
+
+
+
+        <label>Sexo:</label>
+        <div class="sex">
+
+            <input type="radio" name="sexo" id="masculino">
+            <label for="masculino">Masculino</label>
+
+            <input type="radio" name="sexo" id="feminino">
+            <label for="feminino">Feminino</label>
+        </div>
+
+        <label for="olhos">Cor dos Olhos:
+            <input type="color" name="cor" id="olhos" required>
+        </label>
+
+        <label>Biografia:
+            <textarea id="textarea" required></textarea>
+        </label>
+
+        <label>Foto do Perfil:
+
+            <input type="file" accept="image/*" required id="input-file">
+        </label>
+
+        <label>Telefone:
+
+            <input name="telefone" required id="telephone" type="number">
+        </label>
+
+        <label>Link do Perfi do Facebook:
+
+            <input accept="url" name="link" required id="url-facebook">
+        </label>
+
+
+        <label>Senha:
+
+            <input type="password" minlength="6" maxlength="8" required name="senha" id="password">
+        </label>
+
+
+        <button type="reset" id="button-reset">Limpar</button>
+        <button type="submit" id="button-submit">Enviar Dados</button>
+
+    </form>
+
+
+</body>
+
+</html>
