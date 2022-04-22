@@ -1,6 +1,6 @@
 # Form in HTML + CSS
 
-<img src="./assets/form in HTML.png" alt="form-in-html">
+<img src="./assets/form-in-html.png" alt="form-in-html">
 
 > Essa é a imagem do formulário em HTML estilizado com CSS que fizemos no CodeClub.
 
@@ -22,7 +22,7 @@ O projeto foi desenvolvido por um aluno:
   <tr>
     <td align="center">
       <a href="#">
-        <img src="./assets/desenho de um programador.png" width="100px;" alt="Foto-ilustrativa-Arthur_Amaral"/><br>
+        <img src="./assets/desenho-de-programador.PNG" width="100px;" alt="Foto-ilustrativa-Arthur_Amaral"/><br>
         <sub>
           <b>Arthur Amaral</b>
         </sub>
